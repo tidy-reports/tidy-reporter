@@ -30,7 +30,7 @@ npx tidy-reporter generate
 
 By default, it will look for ./results.json in the current directory.
 
-3. After running this command, a folder called html-report will be created in the project root, containing the HTML report files.
+3. After running this command, a folder called "html-report" will be created in the project root, containing the HTML report files.
 
 ## CLI Options
 
