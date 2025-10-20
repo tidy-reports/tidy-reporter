@@ -7,7 +7,7 @@ Generate HTML reports from Playwright `results.json` file.
 ## Installation
 
 bash:
-npm install -g tidy-reporter
+npm i tidy-reporter
 
 Usage
 1. Generate Playwright results
