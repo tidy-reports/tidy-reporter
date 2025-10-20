@@ -45,4 +45,4 @@ Example:
   npx tidy-reporter generate ./results.json
 
 ## Contributing
-If you’d like to suggest a feature, improve documentation, or report a bug — please open a discussion or create an issue on GitHub.
+If you’d like to suggest a feature, improve documentation, or report a bug - please open a discussion or create an issue on GitHub.
