@@ -1,0 +1,27 @@
+{
+  "name": "tidy-reporter",
+  "version": "1.0.0",
+  "description": "Open source HTML reporter for Playwright test results.",
+  "type": "module",
+  "main": "core/generator.js",
+  "bin": {
+    "tidy-reporter": "./bin/cli.js"
+  },
+  "scripts": {
+    "generate": "node ./bin/cli.js generate ./results.json",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "playwright",
+    "reporter",
+    "html",
+    "qa",
+    "testing"
+  ],
+  "author": "Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {}
+}
