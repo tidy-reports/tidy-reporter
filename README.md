@@ -11,6 +11,19 @@ npm i tidy-reporter
 
 Usage
 1. Generate Playwright results
+
+Set up the configuration file:
+
+reporter:[
+
+    ['json', { outputFile: 'results.json' }]
+
+  ],
+
+Run the command to execute the tests and generate a JSON file with the test results in the project root:
+
+npx playwright test
+
 2. Create HTML report
 
 npx tidy-reporter generate
@@ -23,13 +36,13 @@ By default, it will look for ./results.json in the current directory.
 
 Usage:
 
-  tidy-reporter generate [path-to-playwright-json]
+  npx tidy-reporter generate [path-to-playwright-json]
 
 Example:
 
-  tidy-reporter generate
+  npx tidy-reporter generate
 
-  tidy-reporter generate ./results.json
+  npx tidy-reporter generate ./results.json
 
 ## Contributing
 If you’d like to suggest a feature, improve documentation, or report a bug — please open a discussion or create an issue on GitHub.
