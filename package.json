@@ -5,7 +5,7 @@
   "type": "module",
   "main": "core/generator.js",
   "bin": {
-    "tidy-reporter": "./bin/cli.js"
+    "tidy-reporter": "bin/cli.js"
   },
   "scripts": {
     "generate": "node ./bin/cli.js generate ./results.json",
